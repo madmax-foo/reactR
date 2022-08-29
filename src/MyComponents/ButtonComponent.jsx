@@ -1,7 +1,7 @@
 import { Component } from "react"
 
-const Button = () =>  {
-	return <button>Cliccami</button>
+const ButtonComponent = (props) =>  {
+	return <button>{props.text}</button>
 }
 
-export default Button
+export default ButtonComponent
